@@ -1,20 +1,25 @@
 # Fullstack Task Management Application
 
-## Project Overview
+## Project Description
 
-This is a fullstack application consisting of a Django REST Framework backend and a React + TypeScript + Redux frontend. The system is designed for user and services management with secure JWT authentication, and provides CRUD operations for task management through a beautiful, responsive admin panel.
+This is a fullstack task management application featuring a Django REST Framework backend and a React + TypeScript + Redux frontend. The app supports user and services management, secure JWT authentication with auto-logout on token expiry, and CRUD operations for tasks.
+
+The frontend offers a beautiful, animated login page, a clean admin panel dashboard with sidebar navigation and task controls, and a responsive homepage showcasing key services such as Web Development, Mobile App Development, and Digital Marketing.
 
 ---
 
-## Backend (Django REST Framework)
+## Tech Stack
 
-### Features:
+- **Backend**: Django REST Framework, MySQL, JWT Authentication
+- **Frontend**: React, TypeScript, Redux Toolkit, React Router
+- **Styling/UI**: Tailwind CSS, Framer Motion (animations and transitions)
+- **Other**: Axios for API communication
 
-- User and Services Management APIs
-- JWT Authentication with auto-logout on token expiry
-- MySQL database used for data persistence
-- Full CRUD functionality for tasks
+---
 
-### Setup Instructions:
+## Setup Instructions
 
-1. Navigate to the backend folder:
+### Backend Setup
+
+1. Navigate to the backend directory:
+
